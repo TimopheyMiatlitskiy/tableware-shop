@@ -2,15 +2,60 @@
 <html>
 <head>
     <title>Товары</title>
+    <style>
+        body {
+            background-image: url(background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-family: 'Comic Sans MS';
+            text-align: center;
+            font-size: 46px;
+        }
+
+        .container {
+            width: 200px;
+            height: 200px;
+        }
+
+        .image {
+            width: 100%;
+            height: 100%;
+        }
+
+        p {
+            font-size: 24px;
+        }
+
+        a {
+            background-color: aquamarine;
+            color: black;
+            font-size: 24px;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Список товаров</h1>
     <ul>
         <li>Шашки</li>
+        <div class="container">
+            <img src=shashki.jpg alt="Картинка" class="image">
+        </div>
         <li>Шахматы</li>
+        <div class="container">
+            <img src=chess.jpg alt="Картинка" class="image">
+        </div>
         <li>Колода карт</li>
+        <div class="container">
+            <img src=cards.jpg alt="Картинка" class="image">
+        </div>
     </ul>
-    <a href="index.html">Вернуться на главную</a>
-    <a href="контакты.html">Контакты</a>
+    <a href="tableware-shop.html">Вернуться на главную</a>
+    <a href="Contacts.html">Контакты</a>
 </body>
 </html>
