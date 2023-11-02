@@ -1,5 +1,5 @@
 body {
-    background-image: url(D:\Repos\tableware-shop\images\background.jpg);
+    background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,7 +12,7 @@ h1 {
     font-size: 46px;
 }
 
-p {
+p{
     font-size: 24px;
 }
 
